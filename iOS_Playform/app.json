@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/articleList/article",
+    "pages/videoList/video",
+    "pages/commentList/comment",
+    "pages/startup/startup",
+    "pages/logs/logs",
+    "pages/news_page_nav_to/news_page_nav_to",
+    "pages/article_page_nav_to/article_page_nav_to"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "iOS技术小栈",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/index/images/home.png",
+      "selectedIconPath": "pages/index/images/home_selected.png"
+    },{
+      "pagePath": "pages/articleList/article",
+      "text": "文章",
+      "iconPath": "pages/articleList/images/article.png",
+      "selectedIconPath": "pages/articleList/images/article_selected.png"
+    },{
+      "pagePath": "pages/videoList/video",
+      "text": "视频",
+      "iconPath": "pages/videoList/images/video.png",
+      "selectedIconPath": "pages/videoList/images/video_selected.png"
+    },{
+      "pagePath": "pages/commentList/comment",
+      "text": "名言",
+      "iconPath": "pages/commentList/images/comment.png",
+      "selectedIconPath": "pages/commentList/images/comment_selected.png"
+    }]
+  }
+}

@@ -1,0 +1,14 @@
+<!--pages/articleList/article.wxml-->
+<view class="title"><text>乔布斯金句良言</text></view>
+<view class="itemView">
+     
+    <view class="jobs_imag">
+        <image src="images/jobs2009.jpg" style="width:100%;height:100%;" mode="scaleToFill"></image>
+    </view>
+   <button class="click_to"  form-type="submit">良言</button>    
+ </view>
+<view style="width:80%;margin:0 auto;text-align:center;margin-top:10rpx;">"I think we're having fun. I think our customers really like our products. And we're always trying to do better."</view>
+ <view class="comments_add" wx:for="{{array_add}}">
+    <text class="comment_word_detail">\n {{item.text_add}} \n</text>
+    <text class="writer" style=" font-weight: bold;">---written by"Derek"</text>
+</view>

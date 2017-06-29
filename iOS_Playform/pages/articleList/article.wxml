@@ -1,0 +1,12 @@
+<!--pages/articleList/article.wxml-->
+ <view class="list_all" wx:for="{{array}}" >
+        
+     <view class="video_content"  bindtap="click_to_startup" data-index="{{index}}">
+        <text class="text_big_title">{{item.title}}</text>
+       <image src="{{item.image_one}}" style="flex:1;"></image>
+       <image src="{{item.image_two}}" style="flex:1;"></image>
+       <image src="{{item.image_three}}" style="flex:1;"></image>
+        <text class="text_small_title">{{item.detail_title}}</text>
+      </view> 
+  </view>
+<view class="bottom_white"></view>

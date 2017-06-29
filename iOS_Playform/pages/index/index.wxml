@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+    <view class="list_all" wx:for="{{array}}" bindtap="click_to_startup" data-index="{{index}}">
+        <view class="image_content" > <image src="{{item.news_image}}">er</image></view>
+        <view class="title">
+              <text class="text_big_title">{{item.news_title}}</text>
+              <text class="text_small_title" style="text-indent:1em;">\t{{item.news_small_title}}</text>
+          </view> 
+          <view class="detail_article" style="flex:1;">
+           <image src="images/right_in.png" ></image>
+           </view>
+    </view>
+<view class="bottom_white"></view>
+<!--<view class="title" >{{index}}: {{item.message}}<text class="text_big_title">我们一起摇摆</text><text class="text_small_title">我们一起摇摆</text></view>-->

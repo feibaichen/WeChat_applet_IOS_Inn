@@ -1,0 +1,30 @@
+<!--pages/articleList/article.wxml-->
+
+<view class="news_title">
+    <text>{{news_title}}</text>
+    <view class="time_author"><text class="time_author">{{message}}</text></view>
+    </view>
+
+<view class="article_all">
+    <text class="first_p" style="text-indent:2em;">\n{{first_p}}\n</text>
+    <image src="{{news_artcle_image1}}" style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="sec_p" style="text-indent:2em;">\n{{sec_p}}\n</text>
+    <image src="{{news_artcle_image2}}" style="width: 100%;heght:100%;" mode="aspectFit"></image>
+    <text class="three_p" style="text-indent:2em;">\n{{three_p}}\n</text>
+   <image src="{{news_artcle_image3}}" mode="aspectFit"style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="four_p" style="text-indent:2em;">\n{{four_p}}\n</text>
+    <image src="{{news_artcle_image4}}" style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="five_p" style="text-indent:2em;">\n{{five_p}}\n</text>
+    <image src="{{news_artcle_image5}}" style="width:100%;heght:100%;" mode="aspectFit"> </image>
+    <text class="six_p" style="text-indent:2em;">\n{{six_p}}\n</text>
+    <image src="{{news_artcle_image6}}" style="width:100%;heght:100%;" mode="aspectFit"> </image>
+    <text class="seven_p" style="text-indent:2em;">\n{{seven_p}}\n</text>
+    <image src="{{news_artcle_image7}}" style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="eight_p" style="text-indent:2em;">\n{{eight_p}}\n</text>
+    <image src="{{news_artcle_image8}}" style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="night_p" style="text-indent:2em;">\n{{night_p}}\n</text>
+    <image src="{{news_artcle_image9}}" style="width:100%;heght:100%;" mode="aspectFit"></image>
+    <text class="ten_p" style="text-indent:2em;">\n{{ten_p}}\n\n\n\n</text>
+</view>
+
+

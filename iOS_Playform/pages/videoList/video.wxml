@@ -1,0 +1,10 @@
+<!--pages/articleList/article.wxml-->
+<view class="list_all" wx:for="{{array}}" >
+        
+     <view class="video_content" >
+        <text class="text_big_title">{{item.video_title}}</text>
+        <video src="{{item.video_url}}" controls="controls" class="video_cotnent"></video>
+        <text class="text_small_title">\t据国外知名媒体人爆料，苹果下半年将发布震撼人心人心的iPhone8</text>
+      </view> 
+  </view>
+<view class="bottom_white"></view>

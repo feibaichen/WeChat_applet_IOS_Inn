@@ -1,0 +1,12 @@
+<!--pages/articleList/article.wxml-->
+
+
+<view class="image_start">
+    <image src="images/jobs_potral.png" class="img_me"></image>
+</view>
+<view class="my_comment">
+    <text class="my_comment_chinese">\n乔布斯重新定义了创新和科技\n</text>
+    <text style="font-weight: bold;">颠覆了一个时代的科技认知</text>
+    <text class="my_comment_english">Jobs redefined intelligent machine technology, subversion of the era of cognition\n</text>
+</view>
+<button class="button_tap" bindtap="click_to_index">开启</button>
